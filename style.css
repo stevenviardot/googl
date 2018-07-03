@@ -47,7 +47,7 @@ header nav ul li a {
 }
 
 .element:nth-child(1){
-    padding-top: 109px;
+    padding-top: 130px;
     padding-bottom: 20px;
 }
 #conteneur-2 .element:nth-child(2){
@@ -94,8 +94,12 @@ header nav ul li a {
   font-weight: bold;
   padding: 0 16px;
 }
+/*
+________________________________________________________________________________________________
+footer css
+____________________________________________________________________________________________________________
+*/
 
-/* footer css */
 footer {
   display: flex;
   background: #f2f2f2;
@@ -107,20 +111,26 @@ footer #conteneur-3 {
   width: 100%;
 }
 /* left side */
-footer #conteneur-3 .element:nth-child(1) {
+ footer #conteneur-3 .element:nth-child(1) {
   padding: 0;
 }
+
 footer #conteneur-3 .element:nth-child(1) p {
   padding-left: 27px;
   font-size: 15px;
 }
-footer #conteneur-3 .element:nth-child(1) ul {
-  margin: 0;
+
+footer #conteneur-3 .element:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+
 }
+
 footer #conteneur-3 .element:nth-child(2) .footer-left {
   display: flex;
   justify-content: flex-start;
 }
+
 footer #conteneur-3 .element:nth-child(2) .footer-left ul {
   display: flex;
   flex-direction: row;
